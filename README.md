@@ -4,9 +4,11 @@ Check that the gradient flow is proper in the network
 
 ## Usage 
 
+```
 loss = self.criterion(outputs, labels)  
 loss.backward()
 plot_grad_flow(model.named_parameters())
+```
 
 ## Result
 
