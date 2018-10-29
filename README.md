@@ -1,6 +1,6 @@
-# gradflow-check
+# Gradient flow check in Pytorch
 
-Check that the gradient flow is proper in the network in Pytorch
+Check that the gradient flow is proper in the network
 
 ## Usage 
 
