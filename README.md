@@ -1,6 +1,6 @@
 # Gradient flow check in Pytorch
 
-Check that the gradient flow is proper in the network
+Check that the gradient flow is proper in the network by recording the average gradients per layer in every training iteration and then plotting them at the end. If the average gradients are zero in the initial layers of the network then probably your network is too deep for the gradient to flow.
 
 ## Usage 
 
