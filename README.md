@@ -7,7 +7,9 @@ Check that the gradient flow is proper in the network by recording the average g
 ```
 loss = self.criterion(outputs, labels)  
 loss.backward()
-plot_grad_flow(model.named_parameters())
+plot_grad_flow(model.named_parameters()) # version 1
+# OR
+plot_grad_flow_v2(model.named_parameters()) # version 2
 ```
 
 ## Result
